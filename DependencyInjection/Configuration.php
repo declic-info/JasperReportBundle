@@ -17,9 +17,9 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
+        $treeBuilder = new TreeBuilder("");
 
-        $rootNode = $treeBuilder->root('yoh_jasper_report');
+        $rootNode = $treeBuilder->getRootNode('yoh_jasper_report');
 
 
         // Here you should define the parameters that are allowed to
